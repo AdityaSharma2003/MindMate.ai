@@ -59,10 +59,10 @@ export const Companions = ({data}: CompanionProps) => {
                             <p className="lowercase">
                                 @{item.userName}
                             </p>
-                            <div className="flex items-center">
+                            {/* <div className="flex items-center">
                                 <MessageSquare className="w-3 h-3 mr-1"/>
                                 {item._count.messages}
-                            </div>
+                            </div> */}
                         </CardFooter>
                     </Link>
                 </Card>
