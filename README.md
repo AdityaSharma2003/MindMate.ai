@@ -20,7 +20,7 @@ The pro plan allows user to also create their own personalised custom AI charact
 
 ## Walkthrough Video
 
-[Click here to watch the walkthrough video](https://drive.google.com/file/d/1xaWgEyKjTEXeEjjH0pDv2IBGsf79QB-u/view?usp=sharing)
+https://github.com/AdityaSharma2003/MindMate.ai/assets/98648638/f95cfab7-921c-4548-949a-dd2de88bb936
 
 
 ## Features
