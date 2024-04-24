@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# RapidEats
+![MindMate ai](https://github.com/AdityaSharma2003/MindMate.ai/assets/98648638/d3acb882-fa20-4649-aaeb-8234779bf332)
+
+RapidEats is a cutting-edge platform designed to streamline the restaurant experience for both customers and owners. With intuitive features and seamless integration, RapidEats is revolutionizing the way people dine out.
+
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Getting Started](#getting-started)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Introduction
+
+RapidEats offers a user-friendly interface built with ReactJs, TypeScript, and the ShadCn library. With Auth0 integration, users can easily sign up and log in, while restaurant owners can manage their profiles and establishments hassle-free.
+
+## Walkthrough Video
+
+[Click here to watch the walkthrough video](https://drive.google.com/file/d/1xaWgEyKjTEXeEjjH0pDv2IBGsf79QB-u/view?usp=sharing)
+
+
+## Features
+
+- **User Authentication**: Secure signup and login functionality powered by Auth0.
+- **Profile Management**: Users can complete their profiles and restaurant owners can manage their establishments using ZOD and React Hook Forms.
+- **Advanced Search**: Utilizing Cloudinary, users can search, sort, filter, and paginate through restaurants based on location and name.
+- **Seamless Payments**: Integration with Stripe ensures smooth and secure transactions.
+- **Restaurant Dashboard** Restaurant Owners can Make changes to their restaurant and real-time update Order status that will reflect into the customer's dashboarc
+- **Live Tracking**: Real-time order tracking for customers after payment.
+
+## Technologies Used
+
+- Frontend: React, TypeScript, ShadCn, TailwindCSS
+- Backend: Node.js, MongoDB
+- Authentication: Auth0
+- Payments: Stripe
+- Image Management: Cloudinary
 
 ## Getting Started
 
-First, run the development server:
+To get started with RapidEats, follow these steps:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. Clone this repository.
+2. Navigate to the project directory.
+3. Install dependencies using `npm install`.
+4. Set up your environment variables.
+5. Run the frontend and backend servers using `npm start`.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Contributing
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+We welcome contributions from the community to improve RapidEats. To contribute, please follow these steps:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+1. Fork this repository.
+2. Create a new branch for your feature (`git checkout -b feature/AmazingFeature`).
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`).
+4. Push to the branch (`git push origin feature/AmazingFeature`).
+5. Open a pull request.
 
-## Learn More
+## License
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
