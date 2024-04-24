@@ -1,7 +1,7 @@
-# RapidEats
+# MindMate.ai
 ![MindMate ai](https://github.com/AdityaSharma2003/MindMate.ai/assets/98648638/d3acb882-fa20-4649-aaeb-8234779bf332)
 
-RapidEats is a cutting-edge platform designed to streamline the restaurant experience for both customers and owners. With intuitive features and seamless integration, RapidEats is revolutionizing the way people dine out.
+MindMate.ai is a full stack software as a service (SaaS) AI platform. The platform allows users to create and interact with chatbots that impersonate various celebrities and historical figures.
 
 ## Table of Contents
 
@@ -14,7 +14,9 @@ RapidEats is a cutting-edge platform designed to streamline the restaurant exper
 
 ## Introduction
 
-RapidEats offers a user-friendly interface built with ReactJs, TypeScript, and the ShadCn library. With Auth0 integration, users can easily sign up and log in, while restaurant owners can manage their profiles and establishments hassle-free.
+MindMate.ai offers a user-friendly interface built with NextJs, ReactJs, TypeScript, and the ShadCn library. With authentication integrated using CLerk, users can easily sign up and log in, and engage in conversation with chatbots programmed to impersonate iconic figures. 
+
+The pro plan allows user to also create their own personalised custom AI character
 
 ## Walkthrough Video
 
@@ -23,18 +25,17 @@ RapidEats offers a user-friendly interface built with ReactJs, TypeScript, and t
 
 ## Features
 
-- **User Authentication**: Secure signup and login functionality powered by Auth0.
-- **Profile Management**: Users can complete their profiles and restaurant owners can manage their establishments using ZOD and React Hook Forms.
-- **Advanced Search**: Utilizing Cloudinary, users can search, sort, filter, and paginate through restaurants based on location and name.
+- **User Authentication**: Secure signup and login functionality powered by Clerk.
+- **Conversation with the AI character**: Used llama2-13b LLM model offering great expericience to users impersonating the charater.
+- **Storing the character**: Utilizing Cloudinary for image, Pinecone for vector embeddings and MongoDB for the conversations to save the state of the chatbot.
 - **Seamless Payments**: Integration with Stripe ensures smooth and secure transactions.
 - **Restaurant Dashboard** Restaurant Owners can Make changes to their restaurant and real-time update Order status that will reflect into the customer's dashboarc
-- **Live Tracking**: Real-time order tracking for customers after payment.
 
 ## Technologies Used
 
-- Frontend: React, TypeScript, ShadCn, TailwindCSS
-- Backend: Node.js, MongoDB
-- Authentication: Auth0
+- Frontend: Next, React, TypeScript, ShadCn, TailwindCSS
+- Backend: Node.js, MongoDB, Pinecone
+- Authentication: Clerk
 - Payments: Stripe
 - Image Management: Cloudinary
 
@@ -46,7 +47,7 @@ To get started with RapidEats, follow these steps:
 2. Navigate to the project directory.
 3. Install dependencies using `npm install`.
 4. Set up your environment variables.
-5. Run the frontend and backend servers using `npm start`.
+5. Run the project servers using `npm run dev`.
 
 ## Contributing
 
